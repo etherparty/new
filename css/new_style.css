@@ -46,11 +46,15 @@
   font-weight: 500;
 }
 
+.ether-iframe {
+  margin-top: 2em;
+  width: 95%;
+}
+
 .row-margin { margin-bottom: 50em; }
 
 .jumbotron-subtitle-column {
   float: none;
-  width: 55%;
   margin: 0 auto;
   margin-bottom: 50px;
   background-color: #0e222c;
