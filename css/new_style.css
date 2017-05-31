@@ -339,7 +339,7 @@
 }
 
 .bottom-logo-img {
-  margin-left: 7em;
+  margin: 0 auto;
   height: 200px;
 }
 
@@ -400,6 +400,14 @@
 @media screen and (max-width: 992px) {
   .social-icons-text {
     padding-top: 0;
+  }
+
+  .second-body-text {
+    padding-left: 0.5em;
+  }
+
+  .second-body-list {
+    padding-left: 1em;
   }
 
 }
