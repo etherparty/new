@@ -48,7 +48,12 @@
 
 .ether-iframe {
   margin-top: 2em;
-  width: 95%;
+  width: 100%;
+}
+
+.iframe-col {
+  padding: 0;
+  margin-bottom: 4em;
 }
 
 .row-margin { margin-bottom: 50em; }
