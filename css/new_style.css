@@ -370,6 +370,17 @@
   font-size: 1.66em;
 }
 
+.footer {
+  font-family: "Ubuntu", sans-serif;
+  color: #ffffff;
+  font-size: 2em;
+}
+
+.footer-links a {
+  color: #ffffff;
+}
+
+
 @media screen and (max-width: 992px) {
   .social-icons-text {
     padding-top: 0;
