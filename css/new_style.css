@@ -27,7 +27,8 @@
 }
 
 .jumbotron-blurb-column {
-  margin-top: 16em;
+  text-align: center;
+  margin-top: 6em;
   margin-bottom: 2.5em;
 }
 
@@ -36,6 +37,7 @@
 }
 
 .header-blurb-text {
+  color: #ffffff;
   font-family: 'Maven Pro', sans-serif;
   width: 70%;
   max-width: 440px;
@@ -59,11 +61,14 @@
 .row-margin { margin-bottom: 50em; }
 
 .jumbotron-subtitle-column {
+  color: #ffffff;
+  text-align: center;
   float: none;
   margin: 0 auto;
   margin-bottom: 50px;
-  background-color: #0e222c;
-  border: #4a9bd5 2px solid;
+  /*background-color: #0e222c;*/
+  /*border: #4a9bd5 2px solid;*/
+  border: #FFD700 2px solid;
   min-height: 25vh;
   max-width: 590px;
   padding-bottom: 50px;
@@ -91,11 +96,16 @@
   text-align: center;
   font-family: "Abel", sans-serif;
   width: 50%;
-  background: #5db0d2;
+  /*background: #5db0d2;*/
+  background: #FFD700;
   border: none;
   font-size: 1.5em;
   font-weight: 700;
   color: #000000;
+}
+
+.jumbotron-btn:hover {
+  color: #ffffff;
 }
 
 @media screen and (max-width: 992px) {
@@ -245,10 +255,6 @@
   margin: 2em auto;
 }
 
-.computer-img-row {
-  margin-top: 0;
-}
-
 .computer-img-col {
   margin-top: 10em;
 }
@@ -259,6 +265,11 @@
 
 .white-accent {
   color: #ffffff;
+}
+
+.gold-accent {
+  color: #FFD700;
+  font-weight: 700;
 }
 
 .leading-text,
@@ -322,18 +333,19 @@
 .second-body-text {
   font-family: "Maven Pro", sans-serif;
   font-size: 45px;
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 0.5em;
+  margin-top: 1em;
 }
 
 .bottom-logo-img {
   margin-left: 7em;
-  width: 40%;
+  height: 200px;
 }
 
 .second-body-list {
   list-style: none;
-  color: #ffffff;
+  color: #000000;
 }
 
 .second-body-list li {
@@ -342,8 +354,7 @@
 }
 
 .landing-page-list-img {
-  margin-top: -2em;
-  width: 21%;
+  height: 100px;
   display: inline-block;
 }
 
@@ -361,7 +372,7 @@
   color: #ffffff;
   font-size: 36px;
   font-family: "Ubuntu", sans-serif;
-  padding-top: 80%;
+  padding-top: 2em;
 }
 
 .social-icons {
@@ -374,10 +385,15 @@
   font-family: "Ubuntu", sans-serif;
   color: #ffffff;
   font-size: 2em;
+  background-color: #000000;
 }
 
 .footer-links a {
   color: #ffffff;
+}
+
+.why-etherparty-section {
+  margin-top: 3em;
 }
 
 
