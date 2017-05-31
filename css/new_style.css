@@ -61,14 +61,15 @@
 .row-margin { margin-bottom: 50em; }
 
 .jumbotron-subtitle-column {
-  color: #ffffff;
+  color: white;
   text-align: center;
   float: none;
   margin: 0 auto;
   margin-bottom: 50px;
-  /*background-color: #0e222c;*/
-  /*border: #4a9bd5 2px solid;*/
-  border: #FFD700 2px solid;
+  /*background-color: #87C9E5;*/
+  /*background: #FFEA8E;*/
+  border: #5db0d2 2px solid;
+  /*border: #FFEA8E 2px solid;*/
   min-height: 25vh;
   max-width: 590px;
   padding-bottom: 50px;
@@ -96,16 +97,18 @@
   text-align: center;
   font-family: "Abel", sans-serif;
   width: 50%;
-  /*background: #5db0d2;*/
-  background: #FFD700;
+  background: #5db0d2;
+  /*background: #FFD700;*/
   border: none;
   font-size: 1.5em;
   font-weight: 700;
-  color: #000000;
+  /*color: #000000;*/
+  color: #ffffff;
 }
 
 .jumbotron-btn:hover {
   color: #ffffff;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 992px) {
@@ -268,7 +271,8 @@
 }
 
 .gold-accent {
-  color: #FFD700;
+  /*color: #FFD700;*/
+  color: #5db0d2;
   font-weight: 700;
 }
 
