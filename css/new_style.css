@@ -431,7 +431,7 @@
 }
 
 .about-body {
-  padding-left: 1em;
+  padding: 0 1em;
   font-family: "Maven Pro", sans-serif;
   color: #ffffff;
   font-size: 18px;
