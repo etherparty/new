@@ -416,24 +416,58 @@
 
 }
 
-/* about page */
+/* about page & faq page */
 
-.about-section {
+.about-section,
+.faq-section {
   background-color: #191919;
   padding-top: 6em;
   min-height: 100vh;
 }
 
-.about-header {
+.about-header,
+.faq-header {
   padding-bottom: 1em;
   padding-left: 0.5em;
   color: #005e93;
+  line-height: 1.5em;
 }
 
-.about-body {
-  padding: 0 1em;
+.faq-list {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.faq-list li {
+  background-color: #000000;
+  border: #3f726d 1px solid;
+  /*padding-bottom: 0.5em;*/
+  padding: 0;
+}
+
+.about-body,
+.faq-list li.faq-list-item {
   font-family: "Maven Pro", sans-serif;
   color: #ffffff;
   font-size: 18px;
   line-height: 1.2em;
+  margin-bottom: 2em;
+}
+
+.question {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  /*margin-top: 0.5em;*/
+  background-color: #2D3E3E;
+  color: #aac9cc;
+}
+
+.answer {
+  font-family: "Abel", sans-serif;
+  padding-left: 1.5em;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
 }
