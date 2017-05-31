@@ -415,3 +415,25 @@
   }
 
 }
+
+/* about page */
+
+.about-section {
+  background-color: #191919;
+  padding-top: 6em;
+  min-height: 100vh;
+}
+
+.about-header {
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+  color: #005e93;
+}
+
+.about-body {
+  padding-left: 1em;
+  font-family: "Maven Pro", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.2em;
+}
