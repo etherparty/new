@@ -92,7 +92,7 @@ function main() {
   	/*====================================
     Portfolio Isotope Filter
     ======================================*/
-    $(window).load(function() {
+    $(window).on('load',function() {
         var $container = $('#lightbox');
         $container.isotope({
             filter: '*',
