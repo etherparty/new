@@ -49,13 +49,15 @@
 }
 
 .ether-iframe {
-  margin-top: 2em;
   width: 100%;
+  max-width: 590px;
+  margin: 3em 0;
 }
 
 .iframe-col {
   padding-left: 1em;
   padding-right: 1em;
+  text-align: center;
 }
 
 .row-margin { margin-bottom: 50em; }
@@ -67,8 +69,8 @@
   margin: 0 auto;
   border: #5db0d2 2px solid;
   min-height: 25vh;
-  max-width: 590px;
   padding-bottom: 50px;
+  max-width: 590px;
 }
 
 .jumbotron-subtitle-text {
