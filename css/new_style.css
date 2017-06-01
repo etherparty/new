@@ -378,7 +378,7 @@
 .faq-header {
   padding-bottom: 1em;
   padding-left: 0.5em;
-  color: #005e93;
+  color: #ffffff;
   line-height: 1.5em;
 }
 
@@ -415,9 +415,14 @@
   /*margin-top: 0.5em;*/
   background-color: #2D3E3E;
   color: #aac9cc;
+  font-size: 24px;
+  line-height: 1.75em;
 }
 
 .answer {
+  font-weight: 600;
+  line-height: 1.75em
+  font-size: 20px;
   font-family: "Abel", sans-serif;
   padding-left: 1.5em;
   padding-top: 0.5em;
