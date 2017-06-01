@@ -527,6 +527,18 @@
   margin: 0 auto 2em;
 }
 
+.ether-carousel-section {
+  background-color: #000000;
+  padding: 2em 0;
+}
+
+.tf-clients-text {
+  font-family: "Maven Pro", sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 1.5em;
+}
+
 @media screen and (max-width: 992px) {
 
   .jumbotron-btn {
