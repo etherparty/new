@@ -91,7 +91,18 @@
   text-align: center;
 }
 
+ul.blurb-list li {
+  list-style: decimal inside;
+  display: list-item;
+}
+
+.blurb-list li {
+  background-color: transparent;
+  border: none;
+}
+
 .jumbotron-btn {
+  text-transform: uppercase;
   margin: 0 auto;
   text-align: center;
   font-family: "Abel", sans-serif;
@@ -306,7 +317,7 @@
 }
 
 .bottom-logo-img {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   height: 200px;
 }
 
@@ -318,6 +329,7 @@
 .second-body-list li {
   background: none;
   border: none;
+  text-align: left;
 }
 
 .landing-page-list-img {
