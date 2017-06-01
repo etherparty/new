@@ -54,8 +54,8 @@
 }
 
 .iframe-col {
-  padding: 0;
-  margin-bottom: 4em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .row-margin { margin-bottom: 50em; }
@@ -65,11 +65,7 @@
   text-align: center;
   float: none;
   margin: 0 auto;
-  margin-bottom: 50px;
-  /*background-color: #87C9E5;*/
-  /*background: #FFEA8E;*/
   border: #5db0d2 2px solid;
-  /*border: #FFEA8E 2px solid;*/
   min-height: 25vh;
   max-width: 590px;
   padding-bottom: 50px;
