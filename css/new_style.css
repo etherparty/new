@@ -652,6 +652,10 @@ ul.blurb-list li {
   .computer-img-text {
     display: none;
   }
+
+  .jumbotron-subtitle-text {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -668,6 +672,10 @@ ul.blurb-list li {
   .lg-leading-text,
   .leading-text {
     line-height: 1.25em;
+  }
+
+  .blurb-list {
+    width: 70%;
   }
 
 }
