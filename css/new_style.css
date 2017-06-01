@@ -24,7 +24,7 @@
 }
 
 .sm-header-blurb {
-  margin: 0 10px;
+  /*margin: 0 10px;*/
 }
 
 .jumbotron-blurb-column {
@@ -466,6 +466,47 @@
 
 .tf-platform-img {
   margin: 0 auto;
+  padding-bottom: 3em;
+}
+
+/* Services Section */
+.tf-services {
+  padding-top: 2em;
+}
+
+.space {
+  margin-top: 40px;
+}
+
+.tf-services i.fa {
+  font-size: 40px;
+  border: 4px solid #197ad2;
+  width: 100px;
+  height: 100px;
+  padding: 27px 25px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.tf-services i.fa.fa-mobile{
+  font-size: 50px;
+  padding: 20px 25px;
+}
+
+.tf-services .service:hover>i.fa{
+  background: #197ad2;
+  color: #ffffff;
+}
+
+.tf-services-text {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 30px;
+  line-height: 1.5em;
+}
+
+.service {
+  padding: 1em 0;
 }
 
 /* Overwriting basic bootstrap row class */
@@ -490,7 +531,7 @@
   }
 
   .second-body-text {
-    padding-left: 0.5em;
+    /*padding-left: 0.5em;*/
   }
 
   .second-body-list {
