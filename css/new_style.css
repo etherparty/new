@@ -85,6 +85,7 @@
 }
 
 .jumbotron-subtitle-text .jumbotron-subtitle-header {
+  font-size: 22px;
   font-weight: 700;
 }
 
@@ -340,7 +341,7 @@
   color: #ffffff;
   font-size: 36px;
   font-family: "Ubuntu", sans-serif;
-  padding-top: 2em;
+  /*padding-top: 2em;*/
 }
 
 .social-icons {
@@ -631,6 +632,11 @@
   .landing-page-list-text {
     width: 85%;
     margin: 0;
+  }
+
+  .computer-img-text {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -641,6 +647,7 @@
 
   .jumbotron-subtitle-text {
     width: 100%;
+    font-size: 18px;
   }
 
   .lg-leading-text,
@@ -656,7 +663,7 @@
   }
 
   .jumbotron-subtitle-text {
-    font-size: 14px;
+    /*font-size: 14px;*/
     line-height: 1.75em;
   }
 }
