@@ -381,7 +381,7 @@
 
 .social-icons {
   color: #ffffff;
-  margin: 0 11px;
+  margin: 0 6px;
   font-size: 1.66em;
 }
 
@@ -452,6 +452,10 @@
   font-size: 18px;
   line-height: 1.2em;
   margin-bottom: 2em;
+}
+
+.about-body {
+  padding: 1em;
 }
 
 .question {
