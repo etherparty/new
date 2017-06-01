@@ -487,4 +487,19 @@
     width: 70%;
   }
 
+  .jumbotron-subtitle-text {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .header-blurb-text {
+    font-size: 30px;
+  }
+
+  .jumbotron-subtitle-text {
+    font-size: 14px;
+    line-height: 1.75em;
+  }
 }
