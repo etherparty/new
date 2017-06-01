@@ -354,10 +354,16 @@
   color: #ffffff;
   font-size: 2em;
   background-color: #000000;
+  padding: 1em 0;
 }
 
+.footer-links {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
 .footer-links a {
   color: #ffffff;
+  padding-bottom: 0;
 }
 
 .why-etherparty-section {
