@@ -362,6 +362,7 @@
 
 .why-etherparty-section {
   margin-top: 3em;
+  margin-bottom: 2em;
 }
 
 /* about page & faq page */
@@ -505,6 +506,12 @@
   line-height: 1.5em;
 }
 
+.tf-services-sm-text {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 24px;
+  line-height: 1em;
+}
+
 .service {
   padding: 1em 0;
 }
@@ -532,6 +539,7 @@
 
   .second-body-text {
     /*padding-left: 0.5em;*/
+    text-align: center;
   }
 
   .second-body-list {
@@ -586,6 +594,24 @@
     font-size: 30px;
   }
 
+  .bottom-logo-img {
+    margin: 0 auto;
+    height: 150px;
+  }
+
+  .second-body-text {
+    font-size: 30px;
+    line-height: 1.25em;
+    margin-top: 0;
+  }
+
+  .second-body-list li {
+    text-align: center;
+  }
+
+  .landing-page-list-text {
+    width: 85%;
+    margin: 0;
 }
 
 @media screen and (max-width: 480px) {
