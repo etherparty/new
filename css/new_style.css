@@ -422,11 +422,15 @@ ul.blurb-list li {
   color: #ffffff;
   font-size: 18px;
   line-height: 1.2em;
+}
+
+.faq-list li.faq-list-item {
   margin-bottom: 2em;
 }
 
 .about-body {
-  padding: 1em;
+  padding: 0 1em;
+  margin: 1em 0px;
 }
 
 .question {
