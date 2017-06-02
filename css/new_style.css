@@ -220,6 +220,10 @@ ul.blurb-list li {
 
 /* Index body */
 
+.blurb-logo {
+  height: 200px;
+}
+
 .landing-page-body {
   background: url('/img/new_mockup_img/etherparty_bg.png') center no-repeat;
   background-size: cover;
