@@ -348,9 +348,9 @@ ul.blurb-list li {
   display: inline-block;
   width: 75%;
   margin-left: 1em;
-  padding-top: 1em;
   font-style: italic;
   font-weight: 100;
+  line-height: 1.5em;
 }
 
 .social-icons-text {
