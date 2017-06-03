@@ -571,6 +571,23 @@ ul.blurb-list li {
   line-height: 1.5em;
 }
 
+.partners {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.partner-img {
+  height: 75px;
+  padding: 0.25em 1.5em;
+}
+
+.partners-text {
+  font-family: "Maven Pro", sans-serif;
+  color: #000000;
+  font-size: 45px;
+}
+
+
 @media screen and (max-width: 992px) {
 
   .jumbotron-btn {
@@ -610,6 +627,10 @@ ul.blurb-list li {
 
   .sm-leading-text {
     line-height: 1.5em;
+  }
+
+  .partners-img {
+    padding: 0.5em 2em;
   }
 
 }
@@ -666,6 +687,11 @@ ul.blurb-list li {
   .jumbotron-subtitle-text {
     text-align: center;
   }
+
+  .partner-img {
+    height: 100px;
+    padding: 0.5em 10em;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -690,6 +716,10 @@ ul.blurb-list li {
 
   .header-blurb-text {
     font-size: 25px;
+  }
+
+  .partner-img {
+    padding: 0.5em 4em;
   }
 
 }
