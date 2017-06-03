@@ -577,8 +577,15 @@ ul.blurb-list li {
 }
 
 .partner-img {
+  opacity: .4;
   height: 75px;
   padding: 0.25em 1.5em;
+  transition: all .4s ease;
+}
+
+.partner-img:hover,
+.partner-img:focus {
+  opacity: 1;
 }
 
 .partners-text {
