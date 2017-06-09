@@ -32,8 +32,8 @@
   <div class="col-md-12">
     <div class="row">
       <div class="col-md-4">
-        <h3 class="pillar-title"></h3>
-        <p class="pillar-text"></p>
+        <h3 class="pillar-title">ENTERPRISE INTEGRATION</h3>
+        <p class="pillar-text">Etherparty can integrate seamlessly with enterprise software so you can connect and interact with the world’s most popular blockchains. Let the blockchain power your system.</p>
         <a href="#" class="pillar-button">LEARN MORE</a>
       </div>
       <div class="col-md-4">
