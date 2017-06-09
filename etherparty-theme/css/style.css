@@ -141,3 +141,13 @@ html,body {
   color: #ffffff;
 }
 
+@media screen and (max-width: 768px) {
+  .ether-nav {
+    margin-bottom: 0em;
+  }
+
+  #ether-nav {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+}
