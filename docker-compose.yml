@@ -2,17 +2,22 @@ version: "2"
 services:
   my-wpdb:
     image: mariadb
+    container_name: etherparty-wp-mariadb
+    volumes:
+      - ./run/db:/var/lib/mysql
     ports:
       - "8081:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: ChangeMeIfYouWant
+      MYSQL_ROOT_PASSWORD: 1234567890
   my-wp:
     image: wordpress
+    container_name: etherparty-wp-wordpress
     volumes:
-      - ./:/var/www/html
+      - ./run/www:/var/www/html
+      - ./etherparty-theme:/var/www/html/wp-content/themes/etherparty-theme
     ports:
       - "8080:80"
     links:
-      - my-wpdb:mysql
+        - my-wpdb:mysql
     environment:
-      WORDPRESS_DB_PASSWORD: ChangeMeIfYouWant
+      WORDPRESS_DB_PASSWORD: 1234567890

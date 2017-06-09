@@ -1,8 +1,1 @@
-.htaccess
-*.php
-license.txt
-readme.html
-wp-admin/
-wp-content/
-wp-includes/
-etherparty-theme/etherparty-theme
+run/
