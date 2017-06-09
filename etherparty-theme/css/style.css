@@ -116,4 +116,28 @@ html,body {
 
 /* Navbar CSS */
 
+.ether-nav {
+  margin-bottom: -0.7em;
+}
+
+.ether-nav-list {
+  min-height: 4em;
+}
+
+.ether-nav-list-item {
+  font-family: "Maven Pro", sans-serif;
+  height: 4.5em;
+  border-radius: 0;
+}
+
+.ether-nav-list-item .ether-nav-anchor {
+  height: 100%;
+  padding: 1em;
+  border-radius: 0;
+}
+
+.ether-nav-list-item:hover .ether-nav-anchor {
+  background-color: rgb(51, 122, 183);
+  color: #ffffff;
+}
 

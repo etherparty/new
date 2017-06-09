@@ -47,7 +47,7 @@
       <div class="navigation-menu-item"><a href="#">Contact</a></div>
   </nav> -->
 
-  <nav class="navbar navbar-default">
+  <nav class="ether-nav navbar navbar-default">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -62,14 +62,14 @@
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="ether-nav">
-        <ul class="nav nav-pills nav-justified">
-          <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-          <li><a href="#">Enterprise</a></li>
-          <li><a href="#">Use Cases</a></li>
-          <li><a href="#">Resources</a></li>
-          <li><a href="#">ICO</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="nav nav-pills nav-justified ether-nav-list">
+          <li class="active ether-nav-list-item"><a class='ether-nav-anchor' href="#">Home<span class="sr-only">(current)</span></a></li>
+          <li class='ether-nav-list-item'><a class='ether-nav-anchor' href="#">Enterprise</a></li>
+          <li class='ether-nav-list-item'><a class='ether-nav-anchor' href="#">Use Cases</a></li>
+          <li class='ether-nav-list-item'><a class='ether-nav-anchor' href="#">Resources</a></li>
+          <li class='ether-nav-list-item'><a class='ether-nav-anchor' href="#">ICO</a></li>
+          <li class='ether-nav-list-item'><a class='ether-nav-anchor' href="#">Blog</a></li>
+          <li class='ether-nav-list-item'><a class='ether-nav-anchor' href="#">Contact</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
