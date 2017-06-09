@@ -150,4 +150,12 @@ html,body {
     margin-left: -30px;
     margin-right: -30px;
   }
+
+  .ether-nav-list-item:first-child {
+    margin-left: 2px;
+  }
+
+  .ether-nav-list-item {
+    margin-right: 2px;
+  }
 }
