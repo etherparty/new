@@ -12,8 +12,8 @@ $ git checkout wordpress-clean
 2) run `make dev` to make and start the dev environment.  This will start
 a local Wordpress server and a local MariaDB database.
 
-The local installation of Wordpress is in `run/wp-www` and the local
-installation of the MariaDB database is in `run/wp-db`.
+The local installation of Wordpress is in `run/www` and the local
+installation of the MariaDB database is in `run/db`.
 
 The server is on [localhost:8080](http://localhost:8080).
 
@@ -47,7 +47,7 @@ docker stop etherparty-wp-mariadb
 ### ***Editing the files for development***
 
 You should edit the files directly in the etherparty theme directory.  It is
-recommended not to edit any files in the `run/wp-www` directory, as
+recommended not to edit any files in the `run/www` directory, as
 these are from the Wordpress release and should generally not be
 edited nor checked-in. Themes and other plugins should be developed
 outside the Wordpress directory and mounted into the volume with the
@@ -57,5 +57,5 @@ outside the Wordpress directory and mounted into the volume with the
 
 This container is linked to the etherparty wordpress container.
 During software development, all the data for the database is in the
-`run/wp-db` directory. The initial root password for the MariaDB
+`run/db` directory. The initial root password for the MariaDB
 container is `1234567890`. This can be changed
