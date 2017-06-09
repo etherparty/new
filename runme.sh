@@ -5,6 +5,7 @@ sudo apt-get install docker docker-compose
 docker-compose up -d
 
 x=20
+echo -n 'waiting for Wordpress setup to complete ...'
 while test $x -gt 0; do
     if test -d wp-content/themes; then
         cd wp-content/themes
@@ -14,6 +15,8 @@ while test $x -gt 0; do
     fi;
     x=$((x - 1))
     sleep 5;
+    echo -n '.'
 done
+echo
 
 sudo chown -R "$USER" .
