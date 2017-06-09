@@ -17,7 +17,10 @@ installation of the MariaDB database is in `run/db`.
 
 The server is on [localhost:8080](http://localhost:8080).
 
-You can start it with `xdg-open http://localhost:8080`
+You can start it with:
+
+    linux: `xdg-open http://localhost:8080`
+    OS X:  `open http://localhost:8080`
 
 
 ### ***cleaning extraneous un-tracked files created by Wordpress***
