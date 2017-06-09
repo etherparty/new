@@ -4,12 +4,13 @@
 ## just wait for the directory to appear
 #
 
-DIR="run/www/wp-content/themes"
+URL="http://localhost:8080/"
 
 x=12
 echo -n 'waiting for Wordpress setup to complete ...'
 while test $x -gt 0; do
-    if test -d ${DIR} ; then
+    python -c 'import requests; r = requests.get("'${URL}'");' >/dev/null 2>&1
+    if test $? -eq 0; then
         x=-1
     fi;
     x=$((x - 1))
@@ -22,7 +23,9 @@ if [[ $x = 0 ]]; then
     echo "Check the docker log files"
     exit 1
 else
+    sleep 5
     echo "[OK]"
+    echo "The Wordpress server can be found here: ${URL}"
     exit 0
 fi
-sleep 5
+
