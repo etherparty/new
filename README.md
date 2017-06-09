@@ -7,7 +7,7 @@
 ```bash
 $ git clone git@github.com:Etherparty/new
 $ cd new
-$ git checkout wordpress
+$ git checkout wordpress-clean
 ```
 2) run `make dev` to make and start the dev environment.  This will start
 a local Wordpress server and a local MariaDB database.
