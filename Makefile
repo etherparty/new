@@ -9,4 +9,8 @@ start:
 	docker-compose up -d
 	scripts/wait-for-wordpress.sh
 
+stop:
+	docker stop etherparty-wp-wordpress
+	docker stop etherparty-wp-mariadb
+
 
