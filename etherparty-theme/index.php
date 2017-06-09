@@ -30,21 +30,90 @@
 </section>
 <section>
   <div class="col-md-12">
-    <div class="row">
-      <div class="col-md-4">
+    <div class="row pillar-div">
+      <div class="col-md-4 pillar">
         <h3 class="pillar-title">ENTERPRISE INTEGRATION</h3>
         <p class="pillar-text">Etherparty can integrate seamlessly with enterprise software so you can connect and interact with the world’s most popular blockchains. Let the blockchain power your system.</p>
         <a href="#" class="pillar-button">LEARN MORE</a>
       </div>
-      <div class="col-md-4">
-        <h3 class="pillar-title"></h3>
-        <p class="pillar-text"></p>
-        <a href="#" class="pillar-button">LEARN MORE</a>
+      <div class="col-md-4 pillar">
+        <h3 class="pillar-title">USE CASES</h3>
+        <p class="pillar-text">From financial services to cross-industry applications, Etherparty has the smart contract solution to fit your contractual needs.</br></br></p>
+        <a href="#" class="pillar-button">FIND OUT MORE</a>
+      </div>
+      <div class="col-md-4 pillar">
+        <h3 class="pillar-title">COIN OFFERING</h3>
+        <p class="pillar-text">Purchase Etherparty FUEL tokens and be the first to use the world’s most easy-to-use smart contract creator.</br></br></br></p>
+        <a href="#" class="pillar-button">CONNECT TODAY</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="col-md-12">
+    <div class="row home-break">
+      <h3 class="home-break-header">Interested in Etherparty</h1>
+      <a href="#" class="home-break-button">TRY OUR DEMO</a>
+    </div>
+  </div>
+</section>
+<!--<section>
+  <div class="col-md-12">
+    <div class="row">
+      <div class="col-md-8">
+        <h3 class="etherparty-why-heading"></h3>
+        <p class="etherparty-why-text"></p>
+        <a href="#" class="etherparty-why-button">LEARN MORE</a>
       </div>
       <div class="col-md-4">
-        <h3 class="pillar-title"></h3>
-        <p class="pillar-text"></p>
-        <a href="#" class="pillar-button">LEARN MORE</a>
+        <img class="img-responsive" src="contractset-site.svg" alt="contract set" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-8">
+        <h3 class="etherparty-why-heading"></h3>
+        <p class="etherparty-why-text"></p>
+        <a href="#" class="etherparty-why-button">LEARN MORE</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <h3 class="etherparty-why-heading"></h3>
+        <p class="etherparty-why-text"></p>
+        <a href="#" class="etherparty-why-button">LEARN MORE</a>
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+  </div>
+</section>-->
+
+<section class="partners">
+  <div class="col-md-12">
+    <div class='row'>
+      <div class='col-xs-12 col-sm-12 col-md-12'>
+        <h3 class='partners-text'>Our Partners</p>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-xs-12 col-sm-12 col-md-12'>
+        <a class='partner-anchor' target="_blank" href='http://www.blockchainubc.ca/'>
+          <img class='partner-img' src='/wp-content/themes/etherparty-theme/img/partners/bc-logo.jpg' alt='' />
+        </a>
+        <a class='partner-anchor' target="_blank" href='http://entethalliance.org/'>
+          <img class='partner-img' src='/wp-content/themes/etherparty-theme/img/partners/eea-logo.png' alt='' />
+        </a>
+        <a class='partner-anchor' target="_blank" href='http://www.multichain.com/'>
+          <img class='partner-img' src='/wp-content/themes/etherparty-theme/img/partners/multichain-logo.png' alt='' />
+        </a>
+        <a class='partner-anchor' target="_blank" href='http://net-cents.com/'>
+          <img class='partner-img' src='/wp-content/themes/etherparty-theme/img/partners/netcents-logo.jpg' alt='' />
+        </a>
+        <a class='partner-anchor' target="_blank" href='http://www.rsk.co/'>
+          <img class='partner-img' src='/wp-content/themes/etherparty-theme/img/partners/RSK-logo.png' alt='' />
+        </a>
       </div>
     </div>
   </div>
