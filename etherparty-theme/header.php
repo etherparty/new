@@ -38,6 +38,18 @@
 <body>
   <img class="img-responsive logo-at-top" src="/wp-content/themes/etherparty-theme/img/etherparty_logo.png" alt="etherparty-logo" />
 
+   <?php /*
+  wp_nav_menu( array(
+    'menu' => 'top_menu',
+    'depth' => 2,
+    'container' => false,
+    'menu_class' => 'nav',
+    //Process nav menu using our custom nav walker
+    'walker' => new wp_bootstrap_navwalker())
+  );
+  */
+  ?>
+
   <nav class="ether-nav navbar navbar-default">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
