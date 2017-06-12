@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-<section>
-  <div class="col-md-12">
+<div class='container-fluid'>
+  <section>
     <div class="row landing-div-image">
       <div class="col-md-6 landing-left">
         <h1 class="landing-header">Etherparty</h1>
@@ -14,22 +14,20 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/l4OSZUHIyoA" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
-  </div>
-</section>
-<section>
-  <div class="col-md-12">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <h3 class="what-is-header">What is Etherparty</h3>
-        <p class="what-is-text">Etherparty removes the complexity of creating, managing and executing smart contracts on the blockchain.</br></br>
-          Etherparty allows users with zero knowledge of smart contract programming to create an enforceable, self-executing digital agreement for all types of transactions. Our platform is designed to make executing an Ethereum smart contract simple and easy for everyone.
-        </p>
+  </section>
+  <section>
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <h3 class="what-is-header">What is Etherparty</h3>
+          <p class="what-is-text">Etherparty removes the complexity of creating, managing and executing smart contracts on the blockchain.</br></br>
+            Etherparty allows users with zero knowledge of smart contract programming to create an enforceable, self-executing digital agreement for all types of transactions. Our platform is designed to make executing an Ethereum smart contract simple and easy for everyone.
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section>
-  <div class="col-md-12">
+  </section>
+  <section>
     <div class="row pillar-div">
       <div class="col-md-4 pillar">
         <h3 class="pillar-title">ENTERPRISE INTEGRATION</h3>
@@ -47,18 +45,14 @@
         <a href="#" class="pillar-button">CONNECT TODAY</a>
       </div>
     </div>
-  </div>
-</section>
-<section>
-  <div class="col-md-12">
+  </section>
+  <section>
     <div class="row home-break">
-      <h3 class="home-break-header">Interested in Etherparty</h1>
+      <h3 class="home-break-header">Interested in Etherparty</h3>
       <a href="#" class="home-break-button">TRY OUR DEMO</a>
     </div>
-  </div>
-</section>
-<section>
-  <div class="col-md-12">
+  </section>
+  <section>
     <div class="row etherparty-why">
       <div class="col-md-8">
         <h3 class="etherparty-why-heading">NO OTHER TOOLS REQUIRED</h3>
@@ -89,11 +83,9 @@
         <img class="img-responsive" src="/wp-content/themes/etherparty-theme/img/customize.png" alt="contract set" />
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="partners">
-  <div class="col-md-12">
+  <section class="partners">
     <div class='row'>
       <div class='col-xs-12 col-sm-12 col-md-12'>
         <h3 class='partners-text'>Our Partners</p>
@@ -118,6 +110,6 @@
         </a>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+</div>
 <?php get_footer(); ?>
