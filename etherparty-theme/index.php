@@ -16,30 +16,28 @@
     </div>
   </section>
   <section>
-    <div class="col-md-12">
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-          <h3 class="what-is-header">What is Etherparty</h3>
-          <p class="what-is-text">Etherparty removes the complexity of creating, managing and executing smart contracts on the blockchain.</br></br>
-            Etherparty allows users with zero knowledge of smart contract programming to create an enforceable, self-executing digital agreement for all types of transactions. Our platform is designed to make executing an Ethereum smart contract simple and easy for everyone.
-          </p>
-        </div>
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <h3 class="what-is-header">What is Etherparty</h3>
+        <p class="what-is-text">Etherparty removes the complexity of creating, managing and executing smart contracts on the blockchain.</br></br>
+          Etherparty allows users with zero knowledge of smart contract programming to create an enforceable, self-executing digital agreement for all types of transactions. Our platform is designed to make executing an Ethereum smart contract simple and easy for everyone.
+        </p>
       </div>
     </div>
   </section>
   <section>
     <div class="row pillar-div">
-      <div class="col-md-4 pillar">
+      <div class="col-xs-12 col-sm-4 col-md-4 pillar">
         <h3 class="pillar-title">ENTERPRISE INTEGRATION</h3>
         <p class="pillar-text">Etherparty can integrate seamlessly with enterprise software so you can connect and interact with the world’s most popular blockchains. Let the blockchain power your system.</p>
         <a href="#" class="pillar-button">LEARN MORE</a>
       </div>
-      <div class="col-md-4 pillar">
+      <div class="col-xs-12 col-sm-4 col-md-4 pillar">
         <h3 class="pillar-title">USE CASES</h3>
         <p class="pillar-text">From financial services to cross-industry applications, Etherparty has the smart contract solution to fit your contractual needs.</p>
         <a href="#" class="pillar-button">FIND OUT MORE</a>
       </div>
-      <div class="col-md-4 pillar">
+      <div class="col-xs-12 col-sm-4 col-md-4 pillar">
         <h3 class="pillar-title">COIN OFFERING</h3>
         <p class="pillar-text">Purchase Etherparty FUEL tokens and be the first to use the world’s most easy-to-use smart contract creator.</p>
         <a href="#" class="pillar-button">CONNECT TODAY</a>
