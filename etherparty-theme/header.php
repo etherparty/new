@@ -37,15 +37,6 @@
 </head>
 <body>
   <img class="img-responsive logo-at-top" src="/wp-content/themes/etherparty-theme/img/etherparty_logo.png" alt="etherparty-logo" />
-<!--   <nav class="navbar main-navigation">
-      <div class="navigation-menu-item"><a href="#">Home</a></div>
-      <div class="navigation-menu-item"><a href="#">Enterprise</a></div>
-      <div class="navigation-menu-item"><a href="#">Use Cases</a></div>
-      <div class="navigation-menu-item"><a href="#">Resources</a></div>
-      <div class="navigation-menu-item"><a href="#">ICO</a></div>
-      <div class="navigation-menu-item"><a href="#">Blog</a></div>
-      <div class="navigation-menu-item"><a href="#">Contact</a></div>
-  </nav> -->
 
   <nav class="ether-nav navbar navbar-default">
     <div class="container-fluid">

@@ -138,6 +138,8 @@ html,body {
   font-size: 29px;
   font-weight: 300;
   color: white;
+  border-top: #4A9BD5 5px solid;
+  padding-top: 10px;
 }
 
 .pillar-button {
@@ -201,6 +203,53 @@ html,body {
 }
 
 /* etherparty why css */
+.etherparty-why {
+  padding: 40px 20px;
+}
+
+.etherparty-why-right {
+  text-align: right;
+  background-color: #EBEBEB;
+}
+
+.etherparty-why-heading {
+  font-size: 50px;
+  color: #7D7D7D;
+}
+
+.etherparty-why-text {
+  font-size: 40px;
+  font-weight: 400;
+  color: #7D7D7D;
+  padding-bottom: 20px;
+}
+
+.etherparty-why-button {
+  text-decoration: none;
+  color: initial;
+
+  font-size: 25px;
+  color: white;
+  width: 300px;
+  height: 65px;
+  line-height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #338ED6;
+  border: 2px solid #338ED6;
+  -webkit-transition: all .3s;
+  display:block;
+}
+
+.etherparty-why-button:hover {
+  background-color: white;
+  color: #4698DA;
+  text-decoration: none;
+}
+
+.etherparty-why-button-right {
+  float: right;
+}
 
 /* partners */
 .partners {
@@ -210,7 +259,7 @@ html,body {
 
 .partner-img {
   opacity: .4;
-  height: 150px;
+  width: 15%;
   padding: 0.25em 1.5em;
   transition: all .4s ease;
 }

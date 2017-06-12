@@ -38,12 +38,12 @@
       </div>
       <div class="col-md-4 pillar">
         <h3 class="pillar-title">USE CASES</h3>
-        <p class="pillar-text">From financial services to cross-industry applications, Etherparty has the smart contract solution to fit your contractual needs.</br></br></p>
+        <p class="pillar-text">From financial services to cross-industry applications, Etherparty has the smart contract solution to fit your contractual needs.</p>
         <a href="#" class="pillar-button">FIND OUT MORE</a>
       </div>
       <div class="col-md-4 pillar">
         <h3 class="pillar-title">COIN OFFERING</h3>
-        <p class="pillar-text">Purchase Etherparty FUEL tokens and be the first to use the world’s most easy-to-use smart contract creator.</br></br></br></p>
+        <p class="pillar-text">Purchase Etherparty FUEL tokens and be the first to use the world’s most easy-to-use smart contract creator.</p>
         <a href="#" class="pillar-button">CONNECT TODAY</a>
       </div>
     </div>
@@ -57,38 +57,40 @@
     </div>
   </div>
 </section>
-<!--<section>
+<section>
   <div class="col-md-12">
-    <div class="row">
+    <div class="row etherparty-why">
       <div class="col-md-8">
-        <h3 class="etherparty-why-heading"></h3>
-        <p class="etherparty-why-text"></p>
+        <h3 class="etherparty-why-heading">NO OTHER TOOLS REQUIRED</h3>
+        <p class="etherparty-why-text">Using Etherparty means you won't need to install anything else like Geth, Meteor, or Mist to run smart contracts.</p>
         <a href="#" class="etherparty-why-button">LEARN MORE</a>
       </div>
       <div class="col-md-4">
-        <img class="img-responsive" src="contractset-site.svg" alt="contract set" />
+        <img class="img-responsive" src="/wp-content/themes/etherparty-theme/img/contractset.png" alt="contract set" />
       </div>
     </div>
-    <div class="row">
+    <div class="row etherparty-why etherparty-why-right">
       <div class="col-md-4">
+        <img class="img-responsive" src="/wp-content/themes/etherparty-theme/img/piggybank.png" alt="contract set" />
       </div>
       <div class="col-md-8">
-        <h3 class="etherparty-why-heading"></h3>
-        <p class="etherparty-why-text"></p>
-        <a href="#" class="etherparty-why-button">LEARN MORE</a>
+        <h3 class="etherparty-why-heading">SMART CONTRACT TEMPLATES</h3>
+        <p class="etherparty-why-text">Contract drafts are always available and ready to execute. You can also pull from our database of fully tested and refined smart contact templates. Just log-in from anywhere and deploy!</p>
+        <a href="#" class="etherparty-why-button etherparty-why-button-right">LEARN MORE</a>
       </div>
     </div>
-    <div class="row">
+    <div class="row etherparty-why">
       <div class="col-md-8">
-        <h3 class="etherparty-why-heading"></h3>
-        <p class="etherparty-why-text"></p>
+        <h3 class="etherparty-why-heading">NO SYNC REQUIRED</h3>
+        <p class="etherparty-why-text">Etherparty works directly with the Ethereum network so there’s no delay for software to sync-up and quickly execute on the blockchain.</p>
         <a href="#" class="etherparty-why-button">LEARN MORE</a>
       </div>
       <div class="col-md-4">
+        <img class="img-responsive" src="/wp-content/themes/etherparty-theme/img/customize.png" alt="contract set" />
       </div>
     </div>
   </div>
-</section>-->
+</section>
 
 <section class="partners">
   <div class="col-md-12">
